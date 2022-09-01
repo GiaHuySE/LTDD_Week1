@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var x = document.createElement("INPUT");
+        x.setAttribute("type", "text");
+        x.setAttribute("placeholder", "x value");
+        document.body.appendChild(x);
+
+        var y = document.createElement("INPUT");
+        y.setAttribute("type", "text");
+        y.setAttribute("placeholder", "Y value");
+        document.body.appendChild(y);
+        
+        var button = document.createElement("button")
+        var btn= document.createTextNode("click");
+        button.appendChild(btn)
+        document.body.appendChild(button);
+        button.onclick = function(){
+            var xValue= parseInt(x.value);
+            var yValue = parseInt(y.value);
+            console.log(xValue,yValue,xValue+yValue);
+        }
+    </script>
+</body>
+</html>

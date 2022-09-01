@@ -1,0 +1,17 @@
+{
+    "class":[
+        {
+            "id":1,
+            "totalStudent":20,
+            "supervising_Teacher":"Nguyen Van A"
+        }
+    ],
+    "student":[
+        {
+            "classs_id":1,
+            "id":"hs1",
+            "sex":"male",
+            "medium_score":7
+        }
+    ]
+}
